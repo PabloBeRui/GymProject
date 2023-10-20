@@ -17,6 +17,17 @@
   "ERROR_USER_PASS_INCORRECT": "Usuario o contraseña incorrecta",
   "REMEMBER_ME": "Recuérdame",
   "FORGOT_PWD": "¿Has olvidado tu contraseña?",
-  "FOOTER_CREATED_BY": "Creado por Imatia Innovation",
-  "FOOTER_RIGHTS": "Todos los derechos reservados"
+  "FOOTER_CREATED_BY": "Equipo WheGym Innovation ->>",
+  "FOOTER_RIGHTS": " <<-Todos los derechos reservados",
+  "GYMS": "Gimnasios",
+  "name": "Nombre",
+  "address": "Dirección",
+  "city": "Ciudad",
+  "phone": "Teléfono",
+  "email": "Email",
+  "schedule": "Horario",
+  "description": "Descripción",
+  "photo": "Foto",
+  "rate": "Valoración",
+  "categories": "Categorías"
 }

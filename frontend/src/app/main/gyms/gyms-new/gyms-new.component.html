@@ -1,0 +1,86 @@
+<o-form
+  service="gyms"
+  entity="gym"
+  keys="gymid"
+  header-actions="R;I;U;D"
+  show-header-navigation="no"
+>
+  <o-row>
+    <!-- Photo Column -->
+    <o-column title-label="Photo">
+      <o-image
+        id="photo"
+        attr="photo"
+        empty-image="assets/images/no-image.png"
+        sql-type="OTHER"
+      ></o-image>
+    </o-column>
+
+    <!-- Name Column -->
+    <o-column fxFlex>
+      <o-row>
+      <o-text-input
+        class="input-padding"
+        attr="name"
+        fxFlex="40"
+        required="yes"
+      ></o-text-input>
+<!-- CIF Column -->
+      <o-text-input
+        class="input-padding"
+        attr="cif"
+        fxFlex="20"
+      ></o-text-input>
+
+
+    <!-- Address Column -->
+
+      <o-text-input attr="address" fxFlex></o-text-input>
+
+
+    <!-- City Column -->
+
+      <o-text-input
+        class="input-padding"
+        attr="city"
+        fxFlex="20"
+      ></o-text-input>
+    </o-row>
+    <o-row>
+
+    <!-- Phone Column -->
+
+      <o-integer-input
+        attr="phone"
+        class="input-padding"
+        step="0"
+        grouping="no"
+        fxFlex="40"
+      ></o-integer-input>
+    <!-- Schedule Column (assuming it's a text input) -->
+
+      <o-text-input
+        class="input-padding"
+        attr="schedule"
+        fxFlex="20"
+      ></o-text-input>
+    </o-row>
+    <o-row>
+    <!-- Email Column -->
+
+      <o-email-input attr="email" fxFlex></o-email-input>
+
+    </o-row>
+    <o-row>
+
+
+
+    <!-- Description Column -->
+
+      <o-textarea-input attr="description" fxFlex></o-textarea-input>
+    </o-row>
+    </o-column>
+  </o-row>
+</o-form>
+
+
